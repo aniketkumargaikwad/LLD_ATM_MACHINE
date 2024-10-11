@@ -13,7 +13,10 @@ public class UserRepo {
             new User(4, "Suraj", 1000, "Suraj@4"),
             new User(5, "Tejas", 1000, "Tejas@5"),
             new User(6, "Ravi", 1000, "Ravi@6"),
-            new User(7, "Kedar", 1000, "Kedar@7")
+            new User(7, "Kedar", 1000, "Kedar@7"),
+            new User(7, "Viju", 1000, "Viju@8"),
+            new User(7, "Rana", 1000, "Rana@9"),
+            new User(7, "Rinku", 1000, "Rinku@10")
     ));
 
     public User autheticateUser(int id, String password){
