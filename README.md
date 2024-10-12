@@ -2,6 +2,14 @@
 ```markdown
 # ATM Console Application
 
+## UML Diagram
+    [ATM] ----> [Command Interface] <---- [CheckBalanceCommand]
+                              |            |
+                              |            |--> [WithdrawMoneyCommand]
+                              |            |--> [DepositMoneyCommand]
+                              |            |--> [TransferMoneyCommand]
+                              |
+                          [UserRepo] ----> [User]
 ## Overview
 
 This is a simple console-based ATM (Banking) application implemented in **Java**. The application allows users to:
@@ -144,3 +152,4 @@ This design demonstrates the **SOLID principles** and **Design Patterns** effect
 - **Testability**: By separating the logic of different operations, each command can be tested independently, improving test coverage and reliability.
 This project is structured to reflect a **real-world scalable system**, providing the flexibility to grow and adapt as needed.
 ```
+
